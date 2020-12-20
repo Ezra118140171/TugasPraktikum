@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <dataDiri>
     <nama>
-        <awal>Fajar</awal>
-        <akhir>Muhammad</akhir>
+        <awal>Ezra</awal>
+        <akhir>Naibaho</akhir>
     </nama>
     <jenisKelamin>Laki-laki</jenisKelamin>
-    <saudara>Geunta Azahier</saudara>
+    <saudara>Rut J</saudara>
     <orangTua>
-        <ayah>Iskandar Syamrani</ayah>
-        <ibu>Sri Yanti Jono</ibu>
+        <ayah>J. J. Naibaho</ayah>
+        <ibu>E. Simbolon</ibu>
     </orangTua>
-    <hobby>Rebahan</hobby>
+    <hobby>Tidoer</hobby>
     <alamat>
-        <kelurahan>Korpri Jaya</kelurahan>
-        <kecamatan>Sukarame</kecamatan>
+        <kelurahan>Way Halim Permai</kelurahan>
+        <kecamatan>Way Halim</kecamatan>
         <kabupaten>Bandar Lampung</kabupaten>
     </alamat>
     <sosialMedia>
-        <facebook>Fajar Muhammad</facebook>
-        <twitter>Fajar14FM</twitter>
-        <instagram>fajar_muhammad1998</instagram>
+        <facebook>Ezra Kroenl Arthur</facebook>
+        <twitter>Ezrakrnl</twitter>
+        <instagram>ezrakrnl</instagram>
     </sosialMedia>
 </dataDiri>
