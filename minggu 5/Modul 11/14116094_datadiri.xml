@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<dataDiri>
+    <nama>
+        <awal>Fajar</awal>
+        <akhir>Muhammad</akhir>
+    </nama>
+    <jenisKelamin>Laki-laki</jenisKelamin>
+    <saudara>Geunta Azahier</saudara>
+    <orangTua>
+        <ayah>Iskandar Syamrani</ayah>
+        <ibu>Sri Yanti Jono</ibu>
+    </orangTua>
+    <hobby>Rebahan</hobby>
+    <alamat>
+        <kelurahan>Korpri Jaya</kelurahan>
+        <kecamatan>Sukarame</kecamatan>
+        <kabupaten>Bandar Lampung</kabupaten>
+    </alamat>
+    <sosialMedia>
+        <facebook>Fajar Muhammad</facebook>
+        <twitter>Fajar14FM</twitter>
+        <instagram>fajar_muhammad1998</instagram>
+    </sosialMedia>
+</dataDiri>

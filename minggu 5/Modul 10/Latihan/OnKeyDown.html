@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>On Key Down</title>
+</head>
+<body>
+	<p>A function is triggered when the user is pressing a key in the input field.</p>
+	<input type="text" id="input" onkeydown="myFunction()">
+	<div id="text"></div>
+	<script>
+		function myFunction() {
+			var inputText = document.getElementById("input").value;
+			document.getElementById("text").innerHTML = inputText;
+		}
+	</script>
+</body>
+</html>

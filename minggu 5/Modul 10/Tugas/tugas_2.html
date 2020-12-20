@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas 2 JavaScript</title>
+</head>
+<body>
+    <div>
+        <h2>getElementByName()</h2>
+        <p name="paragraf1" class="paragraf">Paragraf 1<br>Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Numquam ullam tenetur, minus id tempore esse voluptatum quas sapiente excepturi, doloribus, dolore atque impedit ad architecto itaque, vero culpa necessitatibus aspernatur.</p>
+        <button onclick="manipulasiParagraf1()">Manipulasi Paragraf 1</button>
+    </div>
+
+    <div>
+        <h2>getElementByClassName()</h2>
+        <p class="paragraf2 paragraf">Paragraf 2<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quas, itaque! Facere illo deleniti tempora perferendis fugit provident culpa quae exercitationem recusandae voluptatum esse sit non error, totam eveniet repellendus.</p>
+        <button onclick="manipulasiParagraf2()">Manipulasi Paragraf 2</button>
+    </div>
+
+    <div>
+        <h2>getElementByTagName()</h2>
+        <p>Unordered list:</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ul>
+        <button onclick="manipulasiList()">Manipulasi List ke Ordered List</button>
+        
+    </div>
+
+    <div>
+        <h2>querySelector()</h2>
+        <p class="paragraf4 paragraf">Paragraf 4<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ea repellat, ullam voluptas ab ex a alias vitae impedit ipsa, suscipit velit voluptate minus tempora voluptatibus aliquam illum earum culpa.</p>
+        <button onclick="manipulasiParagraf4()">Manipulasi Paragraf 4</button>
+    </div>
+
+    <br><br>
+    <button onclick="manipulasiSemuaParagraf()">Manipulasi Semua Paragraf</button>
+    <script>
+        function manipulasiParagraf1() {
+            var p1 = document.getElementsByName("paragraf1")[0];
+            p1.innerHTML = "Paragraf 1 telah dimanipulasi!";
+            p1.style.backgroundColor = "orange";
+        }
+        function manipulasiParagraf2() {
+            var p2 = document.getElementsByClassName("paragraf2")[0];
+            p2.innerHTML = "Paragraf 2 telah dimanipulasi!";
+            p2.style.backgroundColor = "yellow";
+        }
+        function manipulasiList() {
+            var ul = document.getElementsByTagName('ul')[0];
+            var ol = document.createElement('ol');
+            ol.innerHTML = ul.innerHTML;
+            ul.parentNode.replaceChild(ol, ul);
+        }
+        function manipulasiParagraf4() {
+            document.querySelector(".paragraf4").innerHTML = "Paragraf 4 telah dimanipulasi!";
+            document.querySelector(".paragraf4").style.backgroundColor = "green";
+        }
+        function manipulasiSemuaParagraf() {
+            var x = document.querySelectorAll(".paragraf");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.backgroundColor = "blue";
+                x[i].innerHTML = "Semua paragraf sama!";
+            }
+        }
+    </script>
+</body>
+</html>
