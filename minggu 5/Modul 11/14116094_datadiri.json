@@ -1,0 +1,25 @@
+{
+    "dataDiri" : {
+        "nama" : {
+            "awal" : "Ezra",
+            "akhir" : "Naibaho"
+        },
+        "jenisKelamin" : "Laki-laki",
+        "saudara" : "Rut J Naibaho",
+        "orangTua" : {
+            "ayah" : "J. J. Naibaho",
+            "ibu" : "E. Simbolon"
+        },
+        "hobby" : "Tidur",
+        "alamat" : {
+            "kelurahan" : "Way Halim Permai",
+            "kecamatan" : "Way Halim",
+            "kabupaten" : "Bandar Lampung"
+        },
+        "sosialMedia" : {
+            "facebook" : "Ezra Kornel Arthur",
+            "twitter" : "Ezrakrnl",
+            "instagram" : "ezrakrnl"
+        }
+    }
+}

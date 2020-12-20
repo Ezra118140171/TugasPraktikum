@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<dataDiri>
+    <nama>
+        <awal>Ezra</awal>
+        <akhir>Kornel</akhir>
+    </nama>
+    <jenisKelamin>Laki-laki</jenisKelamin>
+    <saudara>Rut J Naibaho</saudara>
+    <orangTua>
+        <ayah>J. J. Naibaho</ayah>
+        <ibu>E. Simbolon</ibu>
+    </orangTua>
+    <hobby>Tidur</hobby>
+    <alamat>
+        <kelurahan>Way Halim Permai</kelurahan>
+        <kecamatan>Way Halim</kecamatan>
+        <kabupaten>Bandar Lampung</kabupaten>
+    </alamat>
+    <sosialMedia>
+        <facebook>Ezra Kornel Arthur</facebook>
+        <twitter>Ezrakrnl</twitter>
+        <instagram>ezrakrnl</instagram>
+    </sosialMedia>
+</dataDiri>
